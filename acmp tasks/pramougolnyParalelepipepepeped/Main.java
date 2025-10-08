@@ -1,4 +1,4 @@
-package phone;
+package pramougolnyParalelepipepepeped;
 
 import java.util.Scanner;
 
@@ -8,9 +8,10 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
-        int d = sc.nextInt();
 
-        int cost = Math.min(a, d) * b + Math.max(0, d - a) * c;
-        System.out.println(cost);
+        int s = 2 * (a*b + a*c + b*c);
+        int v = a * b * c;
+
+        System.out.println(s + " " + v);
     }
 }
